@@ -1,0 +1,36 @@
+# Credentials & secrets
+.env
+firebase_credentials.json
+firebase-adminsdk.js
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+venv/
+.venv/
+
+# Uploads & instance data
+uploads/
+instance/
+tracker.log
+*.log
+*.db
+
+# Node / Frontend
+node_modules/
+dist/
+.firebaserc
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker
+*.tar
+
+# Bob sessions (keep folder structure but not contents)
+bob_sessions/*.json
